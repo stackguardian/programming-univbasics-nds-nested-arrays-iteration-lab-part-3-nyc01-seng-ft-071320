@@ -13,5 +13,5 @@ def join_nested_strings(src)
     end
       row_index += 1 
       end
-  mixed_data.to_s 
+  mixed_data.join 
 end
